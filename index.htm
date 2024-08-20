@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Insectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de Inicio -->
+    <div id="start-menu">
+        <h1>Juego de Insectos</h1>
+        <p>Selecciona la dificultad:</p>
+        <select id="difficulty">
+            <option value="1000">Fácil</option>
+            <option value="700">Intermedio</option>
+            <option value="400">Difícil</option>
+        </select>
+        <button id="start-menu-button">Comenzar</button>
+    </div>
+
+    <!-- Área de Juego -->
+    <div id="game-area">
+        <div id="score">Puntuación: 0</div>
+        <div id="timer">Tiempo: 30s</div>
+        <div id="lives">Vidas: 3</div>
+        <div id="insect"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
